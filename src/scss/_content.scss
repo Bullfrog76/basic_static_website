@@ -1,11 +1,12 @@
-$red : red;
-$green: green; 
+$content-width: 100vw;
+$breakpoint: 799px;
+$nav-height: 7vh;
+$nav-background: #fff;
+$nav-font-color: #0c0c0c;
+$link-hover-color: #f8b500;
 
-p {
-    color: $red;
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
-    span {
-        color: $green;
-        font-weight: bold;
-    }
+body{
+  font-family: 'Poppins'
 }
