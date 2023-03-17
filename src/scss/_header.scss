@@ -17,6 +17,11 @@
     float: left;
     text-transform: uppercase;
     font-size: 1.4em;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
   
     a,
     a:visited {
@@ -55,10 +60,6 @@
   
           &:hover::before{
             width: 70%;
-          }
-          &:not(:only-child):after {
-            padding-left: 4px;
-            content: ' ▾';
           }
         } 
       }
